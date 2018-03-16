@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Festival des Films de Plein Air</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" >
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	</head>
+	<body>
+
+		<!-- Entête -->
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="logo hidden-md-down col-lg-1"><img src="img/video-5-64.png" alt="logo du festival"/></div>
+					<h1 class="col-lg-5 col-10">Festival des Films de Plein Air</h1>	
+					
+					<div class="navbar col-2 col-lg-6 ">
+						<nav class="hidden-md-down">
+							<ul>
+								<li><a class="scroll hvr-underline-from-left" id="presentation" href="#">Présentation</a></li>
+								<li><a class="scroll hvr-underline-from-left" id="on-display" href="#">A l'affiche</a></li>
+								<li><a class="scroll hvr-underline-from-left" id="news" href="#">Actualité</a></li>
+								<li><a class="scroll hvr-underline-from-left" id="contact" href="#">Contact</a></li>
+							</ul>
+						</nav>
+						<nav class="hidden-lg-up logo-navbar-responsive">
+							<ul>
+								<li><a href="#"><img class="menu" src="img/menu-4-64.png" alt="menu"></a></li>
+							</ul>
+						</nav>						
+					</div>		
+					<!-- Menu déroulant sur mobile -->
+					<div class="navbar-responsive col-12 hidden-lg-up">
+						<nav>
+							<ul>
+								<li><a class="scroll" id="presentation" href="#">Présentation</a></li>
+								<li><a class="scroll" id="on-display" href="#">A l'affiche</a></li>
+								<li><a class="scroll" id="news" href="#">Actualité</a></li>
+								<li><a class="scroll" id="contact" href="#">Contact</a></li>
+							</ul>
+						</nav>							
+					</div>
+				</div>
+
+				<div class="top-arrow"><a class="scroll" id="logo" href="#"><i class="material-icons">keyboard_arrow_up</i></a></div>
+			</div>
+		</header>
+		
+		<!-- Image d'entête -->
+		<section class="img-header">
+			<div class="scroll bouton-inscription container" id="contact"><a href="#">Pré-inscription</a></div>
+		</section>
+
+		<!-- Présentation -->
+		<section class="presentation">
+			<div class="container">
+				<h2>Présentation</h2>
+				<hr>
+
+				<div class="row">	
+					<div class="col-lg-6 col-12">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia efficitur dolor. Curabitur rhoncus varius porta. Fusce condimentum ex ac eros commodo ornare. Praesent sapien dolor, suscipit nec lacinia non, elementum at elit. Mauris sodales, leo vitae pulvinar venenatis, turpis urna maximus felis, eget vestibulum odio eros sed risus. Morbi augue erat, suscipit sit amet leo et, porttitor ultrices diam. Donec volutpat, felis non pulvinar gravida, eros dolor commodo tellus, in ultrices ligula massa vitae enim. 
+						</p>				
+					</div>
+					<div class="col-lg-6 hidden-md-down">
+						<img src="img/presentation.jpg" alt="image de présentation"/>						
+					</div>
+
+				</div>
+			</div>
+		</section>
+		
+		<!-- A l'affiche -->
+		<section class="on-display">
+			<div class="container">
+				<h2>A l'affiche</h2>
+				<hr>
+
+				<div class="row">
+					<div class="display col-md-5 col-12" id="display1">
+						<img src="img/affiches/affiche1.jpg" alt="Star Wars">
+						<h3>Star Wars</h3>
+						<p>
+							<strong>Diffusé le 5 août 2018</strong><br>
+							<strong>Date sortie :</strong> <em>16 décembre 2015</em><br>
+							<strong>Synopsis :</strong> Dans une galaxie lointaine, très lointaine, un nouvel épisode de la saga "Star Wars", 30 ans après les événements du "Retour du Jedi".
+						</p>
+					</div>
+					<div class="display offset-md-2 col-md-5 col-xs-12" id="display2">
+						<img src="img/affiches/affiche2.jpg" alt="Retour vers le futur">
+						<h3>Retour vers le futur</h3>
+						<p>
+							<strong>Diffusé le 6 août 2018</strong><br>
+							<strong>Date sortie :</strong> <em>30 octobre 1985</em><br>
+							<strong>Synopsis :</strong> 1985. Le jeune Marty McFly mène une existence anonyme . Ami de l'excentrique professeur Emmett Brown, il l'accompagne un soir tester sa nouvelle expérience : le voyage dans le temps via une DeLorean modifiée.
+						</p>
+					</div>
+
+					<div class="display col-md-5 col-xs-12" id="display3">
+						<img src="img/affiches/affiche3.jpg" alt="N'oublie jamais">
+						<h3>N'oublie jamais</h3>
+						<p>
+							<strong>Diffusé le 7 août 2018</strong><br>
+							<strong>Date sortie :</strong> <em>8 septembre 2004</em><br>
+							<strong>Synopsis :</strong> Atteinte de la maladie d'Alzheimer, Allie vit en maison de retraite. Chaque jour, Noah lui lit le même livre. Pour ne pas oublier ses sentiments, elle a écrit, et Noah, inlassablement, lui relit ses propres mots.
+						</p>
+					</div>
+					<div class="display offset-md-2 col-md-5 col-xs-12" id="display4">
+						<img src="img/affiches/affiche4.jpg" alt="Rain Man">
+						<h3>Rain Man</h3>
+						<p>
+							<strong>Diffusé le 8 août 2018</strong><br>
+							<strong>Date sortie :</strong> <em>15 mars 1989</em><br>
+							<strong>Synopsis :</strong> A la mort de son père, Charlie Babbitt, se voit spolié de quelque trois millions de francs versés à l'Institution psychiatrique Wallbrook. Charlie se rend a Wallbrook et découvre qu’il s'agit de Raymond, savant autiste, qui n'est autre que son frère.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Actualité -->
+		<section class="news">
+			<div class="container">
+				<h2>Actualité</h2>
+				<hr/>
+
+				<div class="row news1">
+					<div class="col-6 col-md-5 col-lg-3">
+						<img class="aside-img" src="img/astier.jpeg" alt="Alexandre Astier">
+					</div>
+					<div class="col-6 col-md-5 col-lg-2 text-news">
+						<p>
+							<strong>Alexandre Astier</strong><br>
+							<em>19/02/2018</em><br>
+							Interview exclusif sur la sortie au cinéma de Kaamelott. <br>
+							<div class="button"><a href="#">En savoir plus</a></div>
+						</p>
+					</div>
+					<div class="barre-rond col-md-2 hidden-md-down"><img src="img/barre.png" alt="barre-et-rond"></div>
+					<div class="col-md-5 hidden-md-down"></div>
+				</div>
+
+				<div class="row news2">
+					<div class="col-md-2 offset-lg-5 hidden-md-down barre-rond"><img  src="img/barre.png" alt="barre-et-rond"></div>
+					<div class="col-6 col-md-5 col-lg-2 text-news">
+						<p>
+							<strong>Alexandre Astier</strong><br>
+							<em>19/02/2018</em><br>
+							Interview exclusif sur la sortie au cinéma de Kaamelott. <br>
+							<div class="button"><a href="#">En savoir plus</a></div>
+						</p>						
+					</div>
+					<div class="col-6 col-md-5 col-lg-3">
+						<img class="aside-img" src="img/astier.jpeg" alt="Alexandre Astier">
+					</div>			
+				</div>
+
+				<div class="row news3">
+					<div class="col-6 col-md-5 col-lg-3">
+						<img class="aside-img" src="img/astier.jpeg" alt="Alexandre Astier">
+					</div>
+					<div class="col-6 col-md-5 col-lg-2 text-news">
+						<p>
+							<strong>Alexandre Astier</strong><br>
+							<em>19/02/2018</em><br>
+							Interview exclusif sur la sortie au cinéma de Kaamelott. <br>
+							<div class="button"><a href="#">En savoir plus</a></div>
+						</p>						
+					</div>
+					<div class="col-md-2 hidden-md-down barre-rond"><img src="img/barre.png" alt="barre-et-rond"></div>	
+					<div class="col-md-5 hidden-md-down"></div>		
+				</div>				
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section class="contact">
+			<div class="container">
+				<h2>Contact</h2>
+				<hr/>				
+				<div class="row">
+					<div class="block coordonnees hidden-md-down col-md-5">
+						<h3>Coordonnées du festival</h3>
+						<ul>
+							<i class="material-icons">play_arrow</i>
+							<li><a id="phone" href="tel:064-242-4242">06.42.42.42.42</a></li><br>
+							<i class="material-icons">play_arrow</i>
+							<li><a href="mailto:support@films-de-plein-air.org">support@films-de-plein-air.org</a></li><br>
+							<i class="material-icons" id="arrow3">play_arrow</i>
+							<li><p>Parc Monceau<br>35 Boulevard de Courcelles,<br>75008 Paris</p></li>
+						</ul>
+						<div class="row social">
+							<div class=" col-2 social-picto" id="picto1"><a href="#"><img id="img1" src="img/social/facebook-4-64.png" alt="facebook"></a></div>
+							<div class="col-1"></div>
+							<div class="col-2 social-picto"><a href="#"><img id="img2" src="img/social/twitter-4-64.png" alt="twitter"></a></div>	
+							<div class="col-1"></div>					
+							<div class="col-2 social-picto"><a href="#"><img id="img3" src="img/social/instagram-4-64.png" alt="instagram"></a></div>
+							<div class="col-1"></div>
+							<div class="col-2 social-picto"><a href="#"><img id="img4" src="img/social/youtube-4-64.png" alt="youtube"></a></div>				
+						</div>
+					</div>
+					<div class="block form col-10 col-lg-5 offset-1 offset-lg-2">
+						<h3>Pré-inscription</h3>
+						<form action="#">
+							<input class=" col-6 form-input top-input" type="text" name="nom" id="nom" placeholder="Nom" required/>
+							<input class="col-6 form-input top-input" type="text" name="prenom" id="prenom" placeholder="Prénom" required>
+
+							<input class="col-12 div-email form-input" type="email" placeholder="Adresse email" id="email" required/>
+							
+							<fieldset class="custom-checkbox">
+								<legend>Date(s) souhaitée(s) :</legend>
+									<div class="checkbox-block">
+										<label for="050818">
+										  <input type="checkbox" name="reservation-date" id="050818">
+										  <span>05/08/18</span>
+										</label>											
+									</div>
+									<div class="checkbox-block">
+										<label for="060818">
+										  <input type="checkbox" name="reservation-date" id="060818">
+										  <span>06/08/18</span>
+										</label>										
+									</div>
+									<br>
+									<div class="checkbox-block">
+										<label for="070818">
+										  <input type="checkbox" name="reservation-date" id="070818">
+										  <span>07/08/18</span>
+										</label>
+									</div>
+									<div class="checkbox-block">
+										<label for="080818">
+										  <input type="checkbox" name="reservation-date" id="080818">
+										  <span>08/08/18</span>
+										</label>										
+									</div>									
+							</fieldset>
+
+							<div id="div-submit"><input class="form-input" id="submit" type="submit" value="Valider"/></div>
+						</form>
+					</div>
+					<div class="col-1 hidden-md-up"></div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Footer responsive -->
+		<footer class="hidden-lg-up">
+			<div class="container">
+				<div class="row row1">
+					<div class="col-6">
+						<ul>
+							<i class="material-icons">play_arrow</i>
+							<li><a id="phone" href="tel:064-242-4242">06.42.42.42.42</a></li><br>
+							<i class="material-icons">play_arrow</i>
+							<li><a href="mailto:support@films-de-plein-air.org">support@films-de-plein-air.org</a></li><br>
+						</ul>
+					</div>
+					<div class="adress col-6">
+						<i class="material-icons" id="arrow3">play_arrow</i>
+						<p>Parc Monceau<br>35 Boulevard de Courcelles,<br>75008 Paris</p>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2"></div>
+					<div class=" col-2 social-picto" id="picto1"><a href="#"><img id="img1" src="img/social/facebook-4-64.png" alt="facebook"></a></div>
+					<div class="col-2 social-picto"><a href="#"><img id="img2" src="img/social/twitter-4-64.png" alt="twitter"></a></div>				
+					<div class="col-2 social-picto"><a href="#"><img id="img3" src="img/social/instagram-4-64.png" alt="instagram"></a></div>
+					<div class="col-2 social-picto"><a href="#"><img id="img4" src="img/social/youtube-4-64.png" alt="youtube"></a></div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
